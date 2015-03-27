@@ -6,6 +6,6 @@ public class Singer {
 	public String singerName;
 	public String singerType;
 	public String country;
-	public ArrayList<Album> albumList;
-	public ArrayList<Song> topSongList;
+	public ArrayList<String> albumList;
+	public ArrayList<String> topSongList;
 }
