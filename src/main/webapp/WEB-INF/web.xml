@@ -15,12 +15,12 @@
         <servlet-class>org.music.analysis.controller.central</servlet-class>
     </servlet>
     <servlet>
-    	<servlet-name>JDBCExample</servlet-name>
-    	<servlet-class>org.music.analysis.controller.JDBCExample</servlet-class>
+    	<servlet-name>connect</servlet-name>
+    	<servlet-class>org.malware.detect.controller.requestListener</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>db_test</servlet-name>
-        <servlet-class>org.music.analysis.controller.db_test</servlet-class>
+        <servlet-class>org.malware.detect.controller.db_test</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -34,8 +34,8 @@
     </servlet-mapping>
 
     <servlet-mapping>
-         <servlet-name>JDBCExample</servlet-name>
-         <url-pattern>/JDBCExample</url-pattern>
+         <servlet-name>connect</servlet-name>
+         <url-pattern>/connect</url-pattern>
     </servlet-mapping>
 
     </web-app>
